@@ -4,6 +4,6 @@
 
 [node name="Main" type="Node3D" unique_id=1511265318]
 
-[node name="test_body" parent="." unique_id=1796722104 instance=ExtResource("1_ig7tw")]
+[node name="buggy_body" parent="." unique_id=1796722104 instance=ExtResource("1_ig7tw")]
 
-[editable path="test_body"]
+[editable path="buggy_body"]
