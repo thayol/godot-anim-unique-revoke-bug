@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c74tf0rhe2hs5"]
+
+[ext_resource type="PackedScene" uid="uid://cgmjrcqova0bg" path="res://test_inherited.tscn" id="1_ig7tw"]
+
+[node name="Main" type="Node3D" unique_id=1511265318]
+
+[node name="test_body" parent="." unique_id=1796722104 instance=ExtResource("1_ig7tw")]
+
+[editable path="test_body"]

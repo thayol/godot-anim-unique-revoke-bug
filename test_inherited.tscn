@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cgmjrcqova0bg"]
+
+[ext_resource type="PackedScene" uid="uid://b8feju3p4ifhb" path="res://test_body.glb" id="1_fof63"]
+[ext_resource type="Animation" uid="uid://b6baognk6b40k" path="res://RESET.tres" id="2_8usq1"]
+[ext_resource type="Animation" uid="uid://bypaltjawjtmp" path="res://bend.tres" id="3_3agl0"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8usq1"]
+_data = {
+&"RESET": ExtResource("2_8usq1"),
+&"bend": ExtResource("3_3agl0")
+}
+
+[node name="test_body" unique_id=1796722104 instance=ExtResource("1_fof63")]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="0" unique_id=790010493]
+libraries/ = SubResource("AnimationLibrary_8usq1")
