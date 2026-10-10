@@ -8,3 +8,5 @@ I thought I was going crazy. I saw some committed changes to my animations in an
 1. Confirm that `RESET.tres` and `bend.tres` have unstaged changes.
 
 If this is an intended side-effect of inherited scenes, please disregard.
+
+In case you can't reproduce it locally, check out the [`post-rename`](https://github.com/thayol/godot-anim-unique-revoke-bug/tree/post-rename) branch that has commit c557cfdf82bab25b110c6a36e506a6d87bf1ce3a with the reproduced issue.
